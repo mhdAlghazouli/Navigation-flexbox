@@ -1,0 +1,27 @@
+.nav-bar {
+  width: 700px;
+  height: 30px;
+  padding-left: 20px;
+  margin: auto;
+  background-color: #86cefa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bar-item {
+  color: white;
+  order: 0;
+  flex: 1;
+  align-self: center;
+}
+
+.nav-bar-menu li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-bar-menu li a {
+  color: white;
+  text-decoration: none;
+}
